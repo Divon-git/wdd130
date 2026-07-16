@@ -10,6 +10,11 @@
 
 }
 
+body{
+    font-size: 16px;
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
 nav {
     background-color: var(--primary-color);
     padding: 10px;
