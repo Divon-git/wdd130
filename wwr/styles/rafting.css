@@ -3,7 +3,7 @@
     --secondary-color: rgb(253 240 213 / 90%);
     --accent-color1: #d3152e;
     --accent-color2: #669bbc;
-    --heading-font: "Margarine", "Times New Roman", serif;
+    --heading-font: "Verdana", "Times New Roman", serif;
     --body-font: "Brush Script MT", cursive, Arial, Helvetica, sans-serif;
 }
 
@@ -63,7 +63,7 @@ h1{
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 350px;
     padding: 5px;
