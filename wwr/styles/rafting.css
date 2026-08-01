@@ -44,6 +44,7 @@ textarea {
     width: 100%;
     padding: .45rem;
     font-size: 1rem;
+    border-radius: 5px;
 }
 
 .newsletter {
@@ -79,8 +80,6 @@ input,
 textarea {
     border: 1px solid #777;
 }
-
-textarea {}
 
 header,
 main,
@@ -294,7 +293,13 @@ footer p {
     padding-left: 150px;
 }
 
-.address h2,
+.address h1 {
+    border: 0;
+    background-color: none;
+    position: unset;
+    opacity: 1;
+}
+
 .address p {
     color: var(--accent-color1);
     justify-self: center;
@@ -325,12 +330,9 @@ footer p {
 
 #employee-section figcaption {
     color: var(--primary-color);
+    text-align: center;
 }
 
 .employee-content img {
     box-shadow: 0 0 10px rgb(71, 7, 7);
-}
-
-.name {
-    text-align: center;
 }
