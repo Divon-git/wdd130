@@ -24,7 +24,6 @@ body {
     gap: 3rem;
     align-items: start;
     margin: 2rem;
-    align-items: stretch;
 }
 
 form {
@@ -78,7 +77,7 @@ button:hover {
 
 input,
 textarea {
-    border: 1px solid #777;
+    border: 1px solid var(--accent-color1);
 }
 
 header,
@@ -172,7 +171,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent-color1);
-    color: #fff;
+    color: var(--primary-color);
 }
 
 .hero article {
@@ -294,15 +293,8 @@ footer p {
 }
 
 .address h1 {
-    border: 0;
-    background-color: none;
     position: unset;
     opacity: 1;
-}
-
-.address p {
-    color: var(--accent-color1);
-    justify-self: center;
 }
 
 .address {
@@ -310,6 +302,8 @@ footer p {
 }
 
 .address p {
+    color: var(--accent-color1);
+    justify-self: center;
     padding: 0;
     margin: 0;
 }
