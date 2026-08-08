@@ -402,20 +402,23 @@ footer p {
 }
 
 .call-to-action h2 {
+    font-size: 20px;
     color: var(--accent-color1);
     font-family: var(--body-font);
 }
 
 .call-to-action a {
+    display: inline-block;
+    display: flex;
+    padding: 10px 20px;
+    background-color: var(--accent-color1);
     color: var(--primary-color);
     text-decoration: none;
-
-}
-
-.call-to-action button {
     margin: 10px;
     font-family: var(--body-font);
     border-radius: 10px;
+    font-size: 1rem;
+    justify-content: center;
 
 }
 
@@ -536,13 +539,6 @@ footer p {
     overflow: hidden;
 
 }
-
-/* to be deleted*/
-/* .image1,
-.description,
-.details {
-    border: 2px solid red;
-} */
 
 .trips-container {
     display: grid;
